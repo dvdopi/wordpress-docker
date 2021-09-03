@@ -31,4 +31,4 @@ jobs:
 
       # Runs docker to start
       - name: Run build
-        run: docker-compose uo -d
+        run: docker-compose up -d
