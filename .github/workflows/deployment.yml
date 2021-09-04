@@ -27,7 +27,7 @@ jobs:
 
       # Runs overide of port
       - name: Create .env
-        run: echo 'PORT=${{secrets.PORT}} > .env
+        run: echo 'PORT=${{secrets.PORT}}' > .env
 
       # Runs docker to start
       - name: Run build
